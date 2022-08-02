@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>org.gamma</groupId>
 	<artifactId>cinema-poster</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>cinema-poster</name>
 	<description>Cinema poster with the possibility of buying tickets</description>
 	<properties>
