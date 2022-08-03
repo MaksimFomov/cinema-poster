@@ -16,10 +16,12 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    @Column(length = 1000)
     private String description;
     private String producer;
     private String yearOfIssue;
     private int duration;
     private int ageLimit;
+    @Column(length = 1000)
     private String image;
 }
